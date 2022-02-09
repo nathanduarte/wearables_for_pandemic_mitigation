@@ -26,7 +26,7 @@ Duarte N, Arora RK, Bennett G, Wang M, Snyder MP, Cooperstock JR, Wagner CE
   -  Economic parameters (Supplementary Table 5)
 -  Run perform_simulation.py. The output (counterfactual_simulation.png) should be saved in the specified directory.
 
-**Conducting analysis of simulation outcomes (i.e., the outcome_data variable):**
+**Conducting custom analyses of simulation outcomes (i.e., the outcome_data variable):**
 - outcome_data[0]: vector of length N with dates in simulation time frame
 - outcome_data[1-4]: arrays of shape (3,N) with daily time series of outcomes and 95% confidence intervals:
   - new infections
