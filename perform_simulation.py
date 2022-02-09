@@ -22,6 +22,9 @@ from simulation_toolbox import Region, run_MC_simulations, extract_CI_ranges
 # Set file path to data
 fpath = "/Users/nathanduarte/GitRepos/wearables_for_pandemic_mitigation/ihme_model_downloaded_on_20211207.csv"
 
+# Set file path to saving output figure
+figpath = "/Users/nathanduarte/GitRepos/wearables_for_pandemic_mitigation"
+
 # Set simulation timeframe
 START_DATE = datetime.date(2020, 9, 1)
 END_DATE = datetime.date(2021, 2, 20)
@@ -110,5 +113,4 @@ ax.set_xlabel('Date', fontsize=8, fontname = "Roboto")
 
 font = font_manager.FontProperties(family="Roboto", style="normal", size=6)
 fig.legend(loc='upper center', bbox_to_anchor=(0.5, 0), fancybox=False, shadow=False, ncol=2, prop=font)
-figpath = "/Users/nathanduarte/GitRepos/wearables_for_pandemic_mitigation"
 plt.savefig(figpath + "/counterfactual_simulation.png", bbox_inches='tight')
