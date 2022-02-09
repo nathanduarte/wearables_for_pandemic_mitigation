@@ -17,12 +17,14 @@ Duarte N, Arora RK, Bennett G, Wang M, Snyder MP, Cooperstock JR, Wagner CE
 - Install Python 3.7.4 and relevant libraries above
 - Within perform_simulation.py, configure parameters:
   -  File path to the data CSV (usually the same folder as the one containing the code)
+  -  File path to outcome figure (usually the same folder as the one containing the code)
   -  Simulation start and end date (duration of N days)
   -  Number of simulations to perform of a particular scenario (recommended: 1000)
   -  Infection parameters (Supplementary Table 1; α from Supplementary Table 2)
   -  Wearable parameters (σ<sub>w</sub> and ν<sub>w</sub> from Supplementary Table 2)
   -  Policy parameters (θ, ψ, σ<sub>a</sub>, ν<sub>a</sub>, and ε from Supplementary Table 2)
   -  Economic parameters (Supplementary Table 5)
+-  Run perform_simulation.py. The output (counterfactual_simulation.png) should be saved in the specified directory.
 
 **Conducting analysis of simulation outcomes (i.e., the outcome_data variable):**
 - outcome_data[0]: vector of length N with dates in simulation time frame
