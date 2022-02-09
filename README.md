@@ -7,7 +7,7 @@ Duarte N, Arora RK, Bennett G, Wang M, Snyder MP, Cooperstock JR, Wagner CE
 - counterfactual_simulation.png is an example of a simulation's outcome
 
 **Software and library requirements:**
-- This code was developed on MacOS Monterey Version 12.1
+- This code was developed on MacOS Monterey Version 12.1.
 - Python version 3.7.4
 - pandas version 1.0.4
 - matplotlib version 3.5.1
