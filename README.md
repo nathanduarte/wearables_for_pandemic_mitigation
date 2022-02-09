@@ -7,6 +7,7 @@ Duarte N, Arora RK, Bennett G, Wang M, Snyder MP, Cooperstock JR, Wagner CE
 - counterfactual_simulation.png is an example of a simulation's outcome
 
 **Software and library requirements:**
+- This code was developed on MacOS Monterey Version 12.1
 - Python version 3.7.4
 - pandas version 1.0.4
 - matplotlib version 3.5.1
@@ -14,7 +15,7 @@ Duarte N, Arora RK, Bennett G, Wang M, Snyder MP, Cooperstock JR, Wagner CE
 - scipy version 1.7.1
 
 **Running simulations:**
-- Install Python 3.7.4 and relevant libraries above
+- Install Python 3.7.4 and relevant libraries above (estimated time: 30 min)
 - Within perform_simulation.py, configure parameters:
   -  File path to the data CSV (usually the same folder as the one containing the code)
   -  File path to outcome figure (usually the same folder as the one containing the code)
@@ -24,7 +25,8 @@ Duarte N, Arora RK, Bennett G, Wang M, Snyder MP, Cooperstock JR, Wagner CE
   -  Wearable parameters (σ<sub>w</sub> and ν<sub>w</sub> from Supplementary Table 2)
   -  Policy parameters (θ, ψ, σ<sub>a</sub>, ν<sub>a</sub>, and ε from Supplementary Table 2)
   -  Economic parameters (Supplementary Table 5)
--  Run perform_simulation.py. The output (counterfactual_simulation.png) should be saved in the specified directory.
+-  Run perform_simulation.py.
+-  The output (counterfactual_simulation.png) should be saved in the specified directory.
 
 **Conducting custom analyses of simulation outcomes (i.e., the outcome_data variable):**
 - outcome_data[0]: vector of length N with dates in simulation time frame
